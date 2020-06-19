@@ -1,0 +1,109 @@
+body    {
+           margin: 0;
+           text-align: center;
+        }
+.header {
+            overflow: hidden;
+            background-color: rgb(57, 173, 147);
+            padding: 5px 10px;
+            position: fixed;
+            display: block;
+            top: 0;
+            width: 100%
+        }
+.header a   {
+                color: white;
+                text-align: center;
+                padding: 5px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 25px;
+                border-radius: 4px;
+                float: right;
+                margin-right: 20px;
+            }
+.header a:hover {
+                    background-color: #fffaf5;
+                    color: rgb(57, 173, 147);
+                }
+.header a.active {
+                    background-color: #fffaf5;
+                    color: rgb(57, 173, 147);
+                  }
+.top{
+    background-color: #e6f8f5;
+    padding-top: 80px;
+}
+.shadab {
+            font-size: 450%;
+            color:  rgb(57, 173, 147);
+            font-family: 'Sacramento', cursive;
+            margin-bottom: 0;
+        }
+.webdev{
+        color:  rgb(57, 173, 147);
+        font-size: 135%;
+}
+.shad-img   {
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+            }
+.middle {
+            padding: 30px;
+        }
+
+h2  {
+            color:  rgb(57, 173, 147);
+            font-size: 300%;
+            font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            font-weight: 400;
+        }
+
+.middle p  {   
+                font-family: 'Merriweather', serif;
+                font-weight: 300;
+                font-size: 135%;
+                color: #545454;
+            }
+
+.skills {
+    padding-bottom: 10px;
+}
+hr{
+    border: dotted rgb(185, 199, 193) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+}                  
+.bottom{
+    background-color : rgb(57, 173, 147);
+    padding: 10px;
+}
+.link{
+    margin: 20px 30px;
+}
+.bottom p{
+    color: white;
+}
+.profile{
+    padding: 10px;
+}
+.bottom h3{
+    color: white;
+}
